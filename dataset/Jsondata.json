@@ -1,0 +1,33 @@
+{
+	"name": "Jsondata",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "dummy.json",
+				"fileSystem": "jsondata"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"p_relative_url": {
+					"type": "string"
+				},
+				"p_sink_folder": {
+					"type": "string"
+				},
+				"p_sink_file": {
+					"type": "string"
+				}
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

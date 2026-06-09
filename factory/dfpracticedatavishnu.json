@@ -1,0 +1,15 @@
+{
+	"name": "dfpracticedatavishnu",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "72c007cb-6e91-469b-8079-374e19c0299b",
+		"tenantId": "d5a3f79c-d611-407b-84c4-160641ff803b"
+	}
+}
